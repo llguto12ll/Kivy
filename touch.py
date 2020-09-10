@@ -19,11 +19,11 @@ class Touch(Widget):
         self.btn.opacity = 1
 
 
-class MyApp(App):
+class TouchApp(App):
     def build(self):
         return Touch()
 
 
 if __name__ == '__main__':
-    App = MyApp()
+    App = TouchApp()
     App.run()
